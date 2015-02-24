@@ -87,7 +87,7 @@ public class Campaign {
 
     // Enter start and end dates
 
-    public void dates(WebDriver driver,String startDate, String endDate) {
+    public void dates(WebDriver driver,String startDate, String endDate) throws Exception{
         WebDriverWait wait = new WebDriverWait(driver, 120);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String startDatePicker=".field+ .cmc-field .hasDatepicker";
