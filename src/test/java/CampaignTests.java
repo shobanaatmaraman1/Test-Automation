@@ -1,5 +1,6 @@
 package test.java;
 
+import main.java.com.xadcentral.regression.Account;
 import main.java.com.xadcentral.regression.BasicOps;
 import main.java.com.xadcentral.regression.Campaign;
 import main.java.com.xadcentral.regression.ReadConf;
@@ -18,6 +19,7 @@ import org.testng.annotations.Test;
  */
 public class CampaignTests {
     static BasicOps bigX;
+    static Account acc;
     static Campaign camp;
     static ReadConf readConf;
     private WebDriver driver;
