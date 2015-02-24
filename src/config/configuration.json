@@ -1,0 +1,104 @@
+{
+  "general": [
+    {
+
+      "priority": "P1",
+      "stagingLogin":"http://ec2-54-196-26-194.compute-1.amazonaws.com:8080",
+      "stagingHome":"http://ec2-54-196-26-194.compute-1.amazonaws.com:8080/#Home",
+      "username":"shobana",
+      "password":"hello123",
+      "invalidUsername":"yellow",
+      "invalidPassword":"hellelo",
+      "chromeDriverPath":"/Users/xAD-inc/Downloads/chromedriver.exe",
+      "excelFilePath":"/Users/xAD-inc/Desktop/AutomationTestCases_Company.xls"
+    }
+  ],
+  "company": [
+    {
+      "deleteCompanyName":"deleteAuto",
+      "createCompanyName":"newAuto 1",
+      "companyNameExistingUser":"automation existing user",
+      "editCompanyName":"UI testing",
+      "companyNameEditedTo":"UI tests",
+      "deleteContactEmail":"del",
+      "newContactEmail":"auto1",
+      "newContactFirstName":"auto first name",
+      "newContactLastName":"auto last name",
+      "newContactTitle":"auto title",
+      "newContactPhone":"1234567890",
+      "existingUser":"satmaram"
+    }
+  ],
+  "account": [
+    {
+      "createAccountName":"newAccount",
+      "marketUS":"United States",
+      "marketUK":"United Kingdom",
+      "marketIndia":"India",
+      "marketCanada":"Canada",
+      "marketGermany":"Germany",
+      "marketFrance":"France",
+
+      "billingSource":"xadagencyops19",
+
+      "pacificTime":"Pacific Time (PST/PDT)",
+      "easternTime":"Eastern Time (EST/EDT)",
+      "mountainTime":"Mountain Time (MST/MDT)",
+      "centralTime":"Central Time (CST/CDT)",
+      "hawaiiTime":"Hawaii-Aleutian Time  (HAST/HADT)",
+      "alaskaTime":"Alaska Time (AKST/AKDT)",
+
+      "newfoundlandTime":"Newfoundland Time (NST/NDT)",
+      "atlanticNovaTime":"Atlantic Time - Nova Scotia (AST/ADT)",
+      "atlanticQuebecTime":"Atlantic Standard Time - Quebec - Lower North Shore (AST)",
+      "easternOntarioTime":"Eastern Time - Ontario; Quebec; East Nunavut (EST/EDT)",
+      "easternStandardTime":"Eastern Standard Time - Atikokan, Ontario; Southampton I, Nunavut (EST)",
+      "centralTime":"Central Time - Manitoba; West Ontario; Central Nunavut (CST/CDT)",
+      "centralStandardTime":"Central Standard Time - Resolute, Nunavut (CST)",
+      "centralStandard":"Central Standard Time - Saskatchewan - most locations (CST)",
+      "mountainTime":"Mountain Time - Alberta; East BC; West SK; West NU; Central and West NT (MST/MDT)",
+      "crestonTime":"Mountain Standard Time - Creston & Dawson Creek & Fort Saint John, British Columbia (MST)",
+      "pacificTime":"Pacific Time - west British Columbia; Yukon (PST/PDT)",
+
+      "englandTime":"London;Greenwich Mean Time(GMT)",
+
+      "indiaTime":"India Standard Time(IST)",
+
+      "europeanTime":"Central European Time (CET/CEST)",
+
+      "accountTypeDA":"Direct - Agency",
+      "accountTypeDC":"Direct - Client",
+      "accountTypeDP":"Direct - Programmatic",
+      "accountTypePC":"Platform - Channel",
+      "accountTypePR":"Platform - Reseller",
+      "accountTypePCMR":"Platform - CMR",
+      "accountTypeProg":"Programmatic",
+      "aDomainName":"google.com",
+      "accountExistingUser":"satmaram",
+      "accountNewContactFirstName":"acc",
+      "accountNewContactLastName":"new",
+      "accountNewContactEmail":"accnew",
+      "accountNewContactTitle":"ac",
+      "accountNewContactPhone":"5659841253"
+    }
+  ],
+  "campaign": [
+    {
+      "createCampaignName":"new Campaign",
+      "campaignBudget":"10",
+      "paddingAmount":"1",
+      "campaignStartDate":"2014-12-01",
+      "campaignEndDate":"2014-12-10",
+      "primaryCategory":"Art",
+      "secondaryCategory":"Eggs",
+      "salesAgent":"jianwen.lang",
+      "accountManager":"kathan",
+      "opsRep":"satmaram",
+      "salesforceNumber":"OPP-54545512",
+      "campaignADomain":"www.xad.com",
+      "campaignID":"123",
+      "budgetPadding":"5"
+
+    }
+  ]
+}

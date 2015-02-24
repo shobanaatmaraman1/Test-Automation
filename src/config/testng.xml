@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Testing" verbose="0">
+    <test name="end2end">
+        <classes>
+            <class name="main.java.com.xadcentral.regression.BasicOps" ></class>
+            <class name="main.java.com.xadcentral.regression.Account" ></class>
+            <class name="main.java.com.xadcentral.regression.Company" ></class>
+            <class name="main.java.com.xadcentral.regression.ExcelOps" ></class>
+            <class name="main.java.com.xadcentral.regression.ReadConf" ></class>
+            <class name="test.java.CompanyTests" ></class>
+            <class name="test.java.AccountTests" ></class>
+            <class name="main.resources.RunAllTests" ></class>
+        </classes>
+    </test>
+</suite>
